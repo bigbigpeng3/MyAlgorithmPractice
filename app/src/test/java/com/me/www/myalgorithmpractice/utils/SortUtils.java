@@ -1,4 +1,4 @@
-package com.me.www.myalgorithmpractice;
+package com.me.www.myalgorithmpractice.utils;
 
 /**
  * Description :
