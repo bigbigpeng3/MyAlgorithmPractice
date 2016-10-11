@@ -36,4 +36,20 @@ public class RandomArray {
     }
 
 
+    public static Integer[] copyArray(Integer[] data){
+
+        if (! (data.length > 0)){
+            throw new IllegalArgumentException("copyArray你没有数据啊......");
+        }
+
+        Integer[] returnData = new Integer[data.length];
+
+        for (int i = 0; i < data.length; i++) {
+            returnData[i] = data[i];
+        }
+
+        return returnData;
+    }
+
+
 }

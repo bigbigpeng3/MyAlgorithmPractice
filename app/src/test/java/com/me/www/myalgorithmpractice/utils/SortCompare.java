@@ -1,6 +1,7 @@
 package com.me.www.myalgorithmpractice.utils;
 
 import com.me.www.myalgorithmpractice.chapaterTwo.Insertion;
+import com.me.www.myalgorithmpractice.chapaterTwo.Quick;
 import com.me.www.myalgorithmpractice.chapaterTwo.Selection;
 import com.me.www.myalgorithmpractice.chapaterTwo.Shell;
 
@@ -17,6 +18,7 @@ public class SortCompare {
     public static final String INSERTIONX = "InsertionX";
     public static final String SELECTION = "Selection";
     public static final String SHELL = "Shell";
+    public static final String QUICK = "Quick";
 
     public static double time(String alg, Comparable[] a) {
         Stopwatch sw = new Stopwatch();
@@ -29,7 +31,7 @@ public class SortCompare {
 //        else if (alg.equals("Merge"))           Merge.sort(a);
 //        else if (alg.equals("MergeX"))          MergeX.sort(a);
 //        else if (alg.equals("MergeBU"))         MergeBU.sort(a);
-//        else if (alg.equals("Quick"))           Quick.sort(a);
+        else if (alg.equals("Quick"))           Quick.sort1(a);
 //        else if (alg.equals("Quick3way"))       Quick3way.sort(a);
 //        else if (alg.equals("QuickX"))          QuickX.sort(a);
 //        else if (alg.equals("Heap"))            Heap.sort(a);
