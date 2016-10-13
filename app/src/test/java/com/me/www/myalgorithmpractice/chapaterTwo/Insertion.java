@@ -172,6 +172,7 @@ public class Insertion {
         }
 
         Assert.assertTrue(isSorted(a));
+
     }
 
     @Test
