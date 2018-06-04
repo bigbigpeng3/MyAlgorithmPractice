@@ -10,7 +10,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.me.www.myalgorithmpractice.MainActivity">
 
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"/>
+
     <TextView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
